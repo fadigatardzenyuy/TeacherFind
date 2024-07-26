@@ -1,0 +1,92 @@
+body {
+    animation:appear 1s linear  ;
+
+}
+
+.box {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+@keyframes appear {
+    from {
+        background-color: aqua;
+        transform: scaleX(0);
+        /* opacity: 0; */
+    }
+
+    to {
+        background-color: aqua;
+
+        transform: scaleX(1);
+        /* opacity: 1; */
+
+    }
+    
+}
+
+h1{
+    font-size: 1.5rem;
+}
+.box1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px solid rgb(183, 4, 159);
+    padding: 20px;
+    width: 250px;
+    height: 300px;
+    background-color: rgb(220, 239, 246);
+
+}
+
+
+input{
+    width: 90%;
+    padding: 8px;
+    border-radius: 10px;
+    border:1px solid black ;
+    outline: none;
+}
+
+.box1 p{
+    font-weight: bolder;
+    font-size: 14px;
+}
+.social{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.log {
+    border: 1px solid;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+button{
+    width: 120px;
+    padding: 5px;
+    border-radius: 5px;
+    /* border: none; */
+    outline: none;
+    background-color: var(--bg_color);
+    color: white;
+    transition: all 0.3s ease-in;
+}
+
+button:hover{
+    width: 150px;
+    padding: 10px;
+
+    
+}
