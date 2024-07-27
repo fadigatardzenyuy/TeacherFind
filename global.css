@@ -37,10 +37,19 @@ nav .logo {
     color: white;
 }
 
-.design h2 {
-    /* font-size: 3rem; */
-    color: var(--bg_color);
+.design {
+    width: 100px;
+    padding: 5px;
+    background-color: aliceblue;
+    border-radius: 0 0 25px 0;
+
 }
+
+.design h2 {
+    color: black;
+
+}
+
 
 nav ul {
     display: flex;

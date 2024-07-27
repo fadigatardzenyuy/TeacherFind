@@ -1,5 +1,5 @@
 body {
-    animation:appear 1s linear  ;
+    animation: appear 1s linear;
 
 }
 
@@ -11,8 +11,9 @@ body {
     align-items: center;
     flex-direction: column;
     gap: 10px;
-    
+
 }
+
 @keyframes appear {
     from {
         background-color: aqua;
@@ -27,12 +28,13 @@ body {
         /* opacity: 1; */
 
     }
-    
+
 }
 
-h1{
+h1 {
     font-size: 1.5rem;
 }
+
 .box1 {
     display: flex;
     justify-content: center;
@@ -48,24 +50,26 @@ h1{
 }
 
 
-input{
+input {
     width: 90%;
     padding: 8px;
     border-radius: 10px;
-    border:1px solid black ;
+    border: 1px solid black;
     outline: none;
 }
 
-.box1 p{
+.box1 p {
     font-weight: bolder;
     font-size: 14px;
 }
-.social{
+
+.social {
     width: 100%;
     display: flex;
     gap: 10px;
     justify-content: center;
 }
+
 .log {
     border: 1px solid;
     width: 30px;
@@ -73,7 +77,7 @@ input{
     border-radius: 50%;
 }
 
-button{
+button {
     width: 120px;
     padding: 5px;
     border-radius: 5px;
@@ -84,9 +88,9 @@ button{
     transition: all 0.3s ease-in;
 }
 
-button:hover{
+button:hover {
     width: 150px;
     padding: 10px;
 
-    
+
 }
